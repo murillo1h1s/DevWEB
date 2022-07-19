@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+#tabela {
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin: 0px auto;
+}
+
+#tabela th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}

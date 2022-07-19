@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+h1 {
+    position: relative;
+}
+
+.text1 {
+    border: 1px solid black;
+    background: orange;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+}
+
+.text2 {
+    border: 1px solid black;
+    background: green;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    z-index: 1;
+}
+
+.text3 {
+    border: 1px solid black;
+    background: blueviolet;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    left: 160px;
+    z-index: 0;
+}

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+}
+
+#conteiner {
+    width: 1080px;
+    margin: auto;
+}
+
+#galeria {
+    width:200px;
+    float: left;
+    margin: 5px 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#galeria:hover {
+    border: 3px solid black;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    padding: 5px;
+}

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+
+
+body {
+    width: 850px;
+    margin: auto;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+}

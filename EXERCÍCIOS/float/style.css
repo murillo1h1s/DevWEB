@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.elementExample {
+    width: 50%;
+    height: 50%;
+    line-height: 200px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.elementExample_first {
+    background-color: #8e44ad;
+    float: right;
+}
+
+.elementExample_last {
+    background-color: #c0392b;
+    float: right;
+}
+
+article {
+    overflow: hidden;
+}
+
+p {
+    clear: both;
+}

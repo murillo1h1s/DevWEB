@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.tahoma {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    text-align: right;
+}
+
+.trebuchet {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: #228B22;
+    text-align: justify;
+}
+
+.verdana2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #8B4513;
+    line-height: 2em;
+}
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #FF4500;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+}

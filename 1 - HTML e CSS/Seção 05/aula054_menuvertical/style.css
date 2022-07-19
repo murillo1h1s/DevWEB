@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li a {
+    border: 1px solid rgb(255, 196, 0);
+    border-radius: 3px;
+    background: url('imagens/menu.png');
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-indent: 40px;
+    line-height: 40px;
+}
+
+a:hover {
+    background-position: right bottom;
+}

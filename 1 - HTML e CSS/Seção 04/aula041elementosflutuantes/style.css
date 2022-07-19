@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.cont {
+    text-align: justify;
+    padding: 10px;
+    background: gray;
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+}

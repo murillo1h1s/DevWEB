@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.elementeExample {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+.elementeExample_first {
+    background-color: blueviolet;
+    position: absolute;
+    right: 0px;
+}
+
+.elementeExample_second {
+    background-color: chartreuse;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.elementeExample_last {
+    background-color: crimson;
+    position: absolute;
+}
+
+.elementeExample_internal {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: black;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}

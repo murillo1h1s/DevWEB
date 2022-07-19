@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+h1, h2 {
+    text-align: center;
+}
+
+
+#content {
+    background: gray;
+    height: 400px;
+    display: flex;
+    margin: 20px;
+}
+
+.item {
+    background: white;
+    border: 1px solid black;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.item1 {
+    flex-grow: 3;
+}
+
+.item2 {
+    flex-grow: 2;
+}
+
+.item3 {
+    flex-grow: 1;
+}

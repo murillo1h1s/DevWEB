@@ -1,0 +1,13 @@
+var num1 = parseFloat(window.prompt('Insira um valor: '))
+var num2 = parseFloat(window.prompt('Insira outro valor: '))
+
+document.write(`Os valores escolhidos foram ${num1} e ${num2}.` + '<br />')
+document.write(`A soma entre ${num1} e ${num2} é igual a ${num1 + num2}` + '<br />')
+document.write(`A subtração entre ${num1} e ${num2} é igual a ${num1 - num2}` + '<br />')
+document.write(`A multiplicação entre ${num1} e ${num2} é igual a ${num1 * num2}` + '<br />')
+document.write(`A divisão entre ${num1} e ${num2} é igual a ${num1 / num2}` + '<br />')
+document.write(`O resto da divisão entre ${num1} e ${num2} é igual a ${num1 % num2}` + '<br />')
+document.write(`O incremento de ${num1} é igual a ${++num1}` + '<br />')
+document.write(`O incremento de ${num2} é igual a ${++num2}` + '<br />')
+document.write(`O decremento de ${--num1} é igual a ${--num1}` + '<br />')
+document.write(`O decremento de ${--num2} é igual a ${--num2}` + '<br />')

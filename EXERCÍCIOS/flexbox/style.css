@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+}
+
+.conteiner div {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 10px;
+    color: black;
+    text-align: center;
+    line-height: 100px;
+    font-size: 1.4em;
+}
+
+.conteiner {
+    background-color: rgb(0, 132, 255);
+    height: 380px;
+    width: 380px;
+    transform: translateY(50%);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+

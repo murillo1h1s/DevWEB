@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(59, 59, 59, 0.671);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+}
+
+a {
+    text-decoration: none;
+    border: 3px solid black;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    flex: 20%;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+main {
+    margin: auto;
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+    a {
+        width: 100%;
+    }
+}

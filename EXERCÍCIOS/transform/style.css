@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    background-color: rgb(0, 204, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+div:hover {
+    cursor: pointer;
+}
+
+#translate {
+    transition: transform 2s, background 2s;
+}
+
+#translate:hover {
+    transform: translateX(100px);
+    background:chartreuse;
+}
+
+#rotate {
+    transition: transform 2s, background 2s;
+}
+
+#rotate:hover {
+    transform: rotate(180deg);
+    background: chocolate;
+}
+
+#scale {
+    transition: transform 1s, background 1s;
+}
+
+#scale:hover {
+    transform: scale(2, 2);
+    background: crimson;
+}
+
+#skew {
+    transition: transform 1s, background 1s;
+}
+
+#skew:hover {
+    transform: skew(20deg, 10deg);
+    background: darkgreen;
+}

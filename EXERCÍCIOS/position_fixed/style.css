@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.header {
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    border-bottom: 1px solid #222f3e;
+    margin-bottom: 30px;
+    position: fixed;
+    top: 0;
+}
+
+.banner {
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    position: fixed;
+    right: 5%;
+    top: 37.5%;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    height: 60px;
+    opacity: 0.95;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: yellowgreen;
+    position: fixed;
+    bottom: 0;
+}
+
+p {
+    margin: 20px 20px;
+}
+
+h1 {
+    margin: 25px 20px;
+}

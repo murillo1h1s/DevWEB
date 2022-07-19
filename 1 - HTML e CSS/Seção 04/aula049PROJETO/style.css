@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+/* Asterisco zera algumas configuracoes do navegador*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #E6E6E6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*formatando a cabeca do site*/
+#topo {
+    background: #F7B600;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+}
+.logo {
+    padding: 10px;
+    color: #4e4e4e;
+    font-size: 1.5em;
+}
+
+.menu {
+    padding: 10px;
+}
+
+.branco {
+    color: white;
+}
+
+/*Formatando os links do menu*/
+a {
+    text-decoration: none;
+}
+
+#topo a:link, #topo a:visited {
+    color: white;
+    padding: 8px 12px;
+    font-weight: bold;
+}
+
+#topo a:hover {
+    color: #F7B600;
+    background: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/*Formatando os demais links*/
+
+a:link, a:visited {
+    color: #F7B600;
+    padding: 5px 0px;
+}
+
+#principal a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    color: #F7B600;
+    font-weight: bolder;
+}
+
+h3 {
+    color: gray;
+    background: rgb(187, 187, 187);
+    padding: 5px 2px;
+}
+
+
+img {
+    width: 630px;
+    margin-top: 10px;
+}
+
+#principal {
+    width: 940px;
+    margin: 0 auto;
+}
+
+#noticias {
+    width: 630px;
+    padding: 20px;
+    margin: 20px 0px;
+    background: white;
+    text-align: justify;
+    float: left;
+}
+
+.blocos {
+    width: 230px;
+    padding: 10px;
+    background: white;
+    text-align: justify;
+    float: right;  
+    margin-bottom: 20px;
+}
+
+.blocos p {
+    font-size: 0.8em;
+    padding: 5px 0px;
+}
+
+.linha {
+    color: rgba(221, 219, 219, 0.219);
+}
+
+.data {
+    font-size: 0.7em;
+    text-align: right;
+    color: gray;
+    padding-bottom: 3px;
+}
+
+footer {
+    clear: both;
+    background: #CCCCCC;
+    width: 900px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}

@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* SELETOR UNIVERSAL*/
+* {
+    border: 1px solid blueviolet;
+    padding: 5px;
+}
+
+/* SELETOR DE CLASSE */
+.titulo {
+    color: chartreuse;
+}
+
+p.titulo {
+    color: chocolate;
+}
+
+/* SELETOR DE ID */
+#header {
+    text-align: justify;
+    font-style: italic;
+    color: crimson;
+}
+
+/*  SELETOR DE FILHO */
+li>a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: darkorange;
+}
+
+/* SELETOR DE DESCENDENTES */
+article p {
+    color: deeppink;
+    font-weight: bolder;
+}

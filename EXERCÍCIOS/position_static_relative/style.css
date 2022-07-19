@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.elementExample {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+}
+
+.elementExample_first {
+    background-color: #8e44ad;
+    position: relative;
+    top: 200px;
+}
+
+.elementExample_last {
+    background-color: #c0392b;
+    position: relative;
+}
+
+.elementExample_isActive {
+    z-index: 1;
+}

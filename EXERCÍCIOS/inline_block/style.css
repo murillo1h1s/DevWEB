@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+ul, li {
+    list-style-type: none;
+}
+
+#conteiner {
+    color: white;
+    font-size: 25px;
+    line-height: 150px;
+    text-align: justify;
+}
+
+.item {
+    width: 25%;
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+}
+
+.primeiro {
+    background-color: orange;
+}
+
+.segundo {
+    background-color: blue;
+}
+
+.terceiro{
+    background-color: chartreuse;
+}

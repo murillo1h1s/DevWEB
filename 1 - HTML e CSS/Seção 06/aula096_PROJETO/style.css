@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+body {
+    background: #f4f2ec url('imagens/fundo.png') repeat-x;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    padding: 15px 0;
+    height: 55px;
+}
+
+#conteiner {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.logo h1 {
+    float: left;
+}
+
+.logo a {
+    width: 248px;
+    height: 21px;
+    text-decoration: none;
+    text-indent: -9000px;
+    display: block;
+    background: url('imagens/logo.png') no-repeat;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 20px;
+    float: right;
+}
+
+nav ul li {
+    float: left;
+}
+
+a:link, a:visited, a:active {
+    color: #b38140;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    background: #a87838;
+    color: #252217;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+nav ul li a:link {
+    display: block;
+    margin-right: 25px;
+    padding: 7px;
+}
+
+/*-- CONTEUDO PRINCIPAL --*/
+
+#conteudo {
+    box-sizing: border-box;
+}
+
+main {
+    width: 710px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+aside {
+    width: 350px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+section > img {
+    border: 8px double gray;
+    width: 95%;
+}
+
+#agendamento {
+    background: #252217;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+h4 {
+    text-transform: uppercase;
+    color: #a87838;
+}
+
+h3 {
+    color: #ac8c63;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    background: #252217;
+    display: inline;
+    padding: 5px 8px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: justify;
+    margin-left: 10px;
+}
+
+
+.video, .mapa, .exposicao, .historia {
+    width: 335px;
+    margin: 15px 0px 0px 0px;
+    float: left;
+}
+
+iframe {
+    margin: 20px 0px 0px 10px;
+}
+
+
+/*-- CONTEUDO LATERAL --*/
+
+label {
+    color: #a87838;
+}
+
+input {
+    border: none;
+    background: #9b9271;
+}
+
+#submit {
+    margin: 0 auto;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background: #9b9271;
+    width: 100%;
+    height: 40px;
+}
+
+#submit:hover {
+    cursor: pointer;
+    box-sizing: border-box;
+    font-weight: bold;
+    background: #aca48c;
+    color: #252217;
+}
+
+#galeria {
+    background: #252217;
+    padding: 10px;
+    margin: 15px 0px 15px 0px;
+    height: 370px;
+}
+
+section#galeria a {
+    display: block;
+    background: url('imagens/fundo-foto.png') no-repeat;
+    float: left;
+    padding: 18px;
+    margin: 10px 0px 0px 20px;
+}
+
+
+/*-- RODAPE --*/
+
+footer {
+    clear: both;
+    padding: 20px 0px 30px 0px;
+    text-align: center;
+    background: url('imagens/fundo-rodape.png') no-repeat center top;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li a {
+    padding: 5px 10px;
+}

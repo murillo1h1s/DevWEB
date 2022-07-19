@@ -1,0 +1,28 @@
+div {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bolder;
+    float: left;
+    margin-right: 20px;
+}
+
+.bloco1 {
+    background-color: gray;
+}
+
+.bloco2 {
+    background-color: aqua;
+}
+
+.bloco3 {
+    background-color: blueviolet;
+}
+
+.bloco4 {
+    background-color: rgb(226, 43, 156);
+}
+

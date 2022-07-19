@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: white url('imagens/fundo.png') repeat-x top left;
+    position: relative;
+}
+
+.titulo {
+    float: left;
+    margin: 50px 50px;
+}
+
+.mapa {
+    float: right;
+}
+
+.menu {
+    clear: both;
+    position: absolute;
+    left: 270px;
+    top: 100px;
+}
+
+.fundo img {
+    border: 4px solid #7089a079;
+    width: 97%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    float: left;
+    background: linear-gradient(to bottom, #b10333, #be2a54);
+    text-align: center;
+    border-radius: 3px;
+}
+
+.menu li a {
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: url('imagens/divisor.png') no-repeat center right;
+}
+
+.menu li a:hover {
+    background-color: #a32448;
+    border-radius: 3px;
+}
+
+#corpo {
+    clear: both;
+    position: absolute;
+    top: 240px;
+    left: 160px;
+    width: 960px;
+    font-size: 0.9em;
+}
+
+.primario {
+    width: 360px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 4px;
+}
+
+.secundario {
+    width: 360px;
+    float: left;
+    margin-left: 10px;
+}
+
+.lateral {
+    width: 200px;
+    float: left;
+}
+
+.sub_titulo {
+    background: linear-gradient(to bottom, #294C71, #7089a0);
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    padding: 7px 0 7px 0;
+}
+
+.listras {
+    background: url('imagens/fundo-caixa.png');
+}
+
+.fundo {
+    background: white;
+    margin: 5px;
+    height: 95%;
+    padding: 5px;
+}
+
+.fundo a {
+    color: #b10333;
+    text-decoration: none;
+}
+
+.fundo a:hover {
+    text-decoration: underline;
+}
+
+.lateral ul a {
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.lateral ul a:hover {
+    color: #353535;
+    background: #dfdfdf url('imagens/marcador.png') no-repeat left;
+    padding-left: 20px;
+}
+
+.sublista li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+}
+
+.sublista img {
+    width: 100px;
+}
+
+.sublista li a {
+    text-decoration: none;
+}
+
+.sublista li a h5 {
+    font-size: 1.2em;
+    color: #3e7ab9;
+}
+
+.sublista li a p {
+    font-size: 0.8em;
+    color: black;
+}
+
+.sublista li:hover {
+    font-weight: bold;
+    background: rgba(179, 179, 255, 0.39);
+    cursor: pointer;
+}
+
+h4 {
+    background: linear-gradient(to bottom, #b10333, #be2a54);
+    color: white;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 3px;
+}
+
+input {
+    margin: 3px;
+    line-height: 23px;
+    border: 3px solid gray;
+}
+
+input.submit {
+    background: linear-gradient(to bottom, #b10333, #be2a54);
+    color: white;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+footer {
+    background: linear-gradient(to bottom, #294C71, #7089a0);
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    top: 1200px;
+}

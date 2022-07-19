@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.column {
+    width: 25%;
+    height: 150px;
+    float: left;
+    padding: 20px;
+}
+
+.conteiner:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1em;
+    }
+    .column {
+        width: 100%;
+    }
+}

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    background: url('imagens/fundo-horizontal.png') repeat-x;
+    width: 900px;
+}
+
+ul li {
+    float: left;
+}
+
+ul a {
+    display: block;
+    padding: 0 2em;
+    line-height: 2.5em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: url('imagens/divisor.png') repeat-y right;
+}
+
+ul a:hover {
+    color: #085662;
+    background: #44cade;
+}
